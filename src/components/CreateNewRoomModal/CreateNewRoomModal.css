@@ -1,0 +1,38 @@
+.create-new-room-modal {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.create-new-room-modal > div,
+.create-new-room-modal > span {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.create-new-room-modal > span {
+  justify-content: flex-end;
+}
+
+.create-new-room-modal > div > label {
+  font-size: medium;
+  font-weight: 400;
+}
+
+.create-new-room-modal > div > input {
+  margin-left: 1rem;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+
+.create-new-room-modal > span > button {
+  font-size: medium;
+  font-weight: 500;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #00000083;
+}
+
+.modal {
+  width: fit-content;
+  height: fit-content;
+  min-width: 30%;
+  min-height: 30%;
+  max-width: 90%;
+  max-height: 90%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+}
+
+.modal-titlebar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.modal-body {
+  width: 100%;
+}
+
+.modal-title {
+  font-size: large;
+  font-weight: 500;
+}
+
+.modal-close {
+  cursor: pointer;
+}

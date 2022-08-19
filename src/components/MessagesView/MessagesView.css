@@ -1,0 +1,17 @@
+.messages-view {
+	flex: 1;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	min-height: 0;
+}
+
+.messages-wrapper-wrapper {
+	min-height: min-content;
+	min-height: -webkit-min-content;
+}
+
+.messages-wrapper {
+	flex: 1;
+	overflow: auto;
+}
