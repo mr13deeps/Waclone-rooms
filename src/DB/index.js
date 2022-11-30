@@ -1,36 +1,36 @@
 const msg1 = {
-    text: "I'm Hakesh",
-    sentBy: "Hakesh",
+    text: "I'm Mani",
+    sentBy: "Mani",
     timestamp: "1:00 am"
 };
 const msg2 = {
-    text: "I'm gay",
-    sentBy: "Gay",
+    text: "I'm Eessh",
+    sentBy: "Eessh",
     timestamp: "1:00 am"
 };
 const msg3 = {
-    text: "so many premiums",
-    sentBy: "Hakesh",
+    text: "I study at IIT(ISM) Dhanbad",
+    sentBy: "Mani",
     timestamp: "1:01 am"
 };
 const msg4 = {
-    text: "want some?",
-    sentBy: "Hakesh",
+    text: "Me too",
+    sentBy: "Eessh",
     timestamp: "1:03 am"
 };
 
 const room1 = {
-    name: "Asthithvav Room",
+    name: "Batch of 2023",
     messages: [msg1, msg2],
     lastMessage: msg3
 };
 const room2 = {
-    name: "Hakesh Premium Room",
+    name: "Department of Electronics Engineering",
     messages: [msg1, msg2, msg3],
     lastMessage: msg3
 };
 const room3 = {
-    name: "Hakesh Premium Pack Room",
+    name: "Students of IIT(ISM) Dhanbad",
     messages: [msg1, msg2, msg3, msg4],
     lastMessage: msg4
 };
